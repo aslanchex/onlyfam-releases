@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="OnlyFam — приватный мессенджер для близких и семьи. Только mutual-контакты, исчезающие сообщения, шифрование, звонки."
+    />
+    <title>OnlyFam — мессенджер для своих</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="/">OnlyFam</a>
+        <nav class="nav" aria-label="Разделы">
+          <a href="#features">Возможности</a>
+          <a href="#privacy">Приватность</a>
+          <a href="#download">Скачать</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero__inner">
+          <p class="hero__badge">Только для своих</p>
+          <h1 class="hero__title">
+            Мессенджер для семьи<br />и близкого круга
+          </h1>
+          <p class="hero__lead">
+            OnlyFam — это не публичная соцсеть. Общение только с людьми из вашей
+            адресной книги, которые добавили вас в ответ. Без лишних глаз и
+            случайных диалогов.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#download">Скачать для Android</a>
+            <a class="btn btn--ghost" href="#features">Узнать больше</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" class="section">
+        <div class="container">
+          <h2 class="section__title">Что умеет OnlyFam</h2>
+          <div class="grid">
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">💬</span>
+              <h3>Личные чаты</h3>
+              <p>
+                Текстовые сообщения, ответы, редактирование, статусы доставки
+                и прочтения. Всё в реальном времени.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">⏱</span>
+              <h3>Исчезающие сообщения</h3>
+              <p>
+                Сообщения автоматически удаляются с сервера через выбранный
+                таймер — до 7 дней. История не хранится вечно.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">🔒</span>
+              <h3>Шифрование</h3>
+              <p>
+                Текст шифруется на устройстве. На сервере — только
+                зашифрованные данные. Защищённая переписка с mutual-контактами.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">📞</span>
+              <h3>Звонки</h3>
+              <p>
+                Аудио- и видеозвонки через LiveKit. Push-уведомления о входящих
+                звонках, даже когда приложение закрыто.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">📇</span>
+              <h3>Mutual-контакты</h3>
+              <p>
+                Написать можно только тому, кто есть у вас в телефоне и кто
+                добавил вас в свой список. Никакого открытого поиска.
+              </p>
+            </article>
+            <article class="card">
+              <span class="card__icon" aria-hidden="true">🏠</span>
+              <h3>Свой сервер</h3>
+              <p>
+                Open-source стек: NestJS, PostgreSQL, Redis, MinIO. Без
+                Firebase. Данные под вашим контролем.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="privacy" class="section section--alt">
+        <div class="container privacy">
+          <div class="privacy__text">
+            <h2 class="section__title">Приватность по умолчанию</h2>
+            <ul class="privacy__list">
+              <li>Вход только по номеру телефона (SMS-код)</li>
+              <li>Доступ к адресной книге — обязательное условие</li>
+              <li>Нет публичных профилей и открытого поиска</li>
+              <li>Push без текста зашифрованных сообщений</li>
+              <li>Самохостинг — вы владеете инфраструктурой</li>
+            </ul>
+          </div>
+          <aside class="privacy__aside">
+            <blockquote>
+              «Мессенджер не для всех — только для тех, кому вы действительно
+              доверяете.»
+            </blockquote>
+          </aside>
+        </div>
+      </section>
+
+      <section id="download" class="section">
+        <div class="container download">
+          <h2 class="section__title">Скачать</h2>
+          <p class="download__note">
+            Android APK · подключается к <code>api.onlyfam.ru</code>
+          </p>
+          <a
+            class="btn btn--primary download__btn"
+            href="https://github.com/aslanchex/onlyfam-releases/releases/download/v1.0.1/onlyfam-1.0.1.apk"
+            download
+            rel="noopener"
+          >
+            Скачать OnlyFam
+          </a>
+          <p class="download__soon">
+            Версия 1.0.1 (сборка 2) · iOS в разработке
+          </p>
+          <p class="download__mirror">
+            <a href="https://github.com/aslanchex/onlyfam-releases/releases">Все версии на GitHub</a>
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <span class="logo logo--small">OnlyFam</span>
+        <p>© 2026 OnlyFam · onlyfam.ru</p>
+      </div>
+    </footer>
+  </body>
+</html>
